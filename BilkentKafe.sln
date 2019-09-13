@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilkentKafe", "BilkentKafe\BilkentKafe.csproj", "{0D360806-D7E3-40E7-90C3-4C53FC975CBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilkentKafe.Data", "BilkentKafe.Data\BilkentKafe.Data.csproj", "{AEC0ACFA-49E7-4A2A-892D-1DA3AFE50F32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D360806-D7E3-40E7-90C3-4C53FC975CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D360806-D7E3-40E7-90C3-4C53FC975CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D360806-D7E3-40E7-90C3-4C53FC975CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D360806-D7E3-40E7-90C3-4C53FC975CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEC0ACFA-49E7-4A2A-892D-1DA3AFE50F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC0ACFA-49E7-4A2A-892D-1DA3AFE50F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC0ACFA-49E7-4A2A-892D-1DA3AFE50F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC0ACFA-49E7-4A2A-892D-1DA3AFE50F32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B77D742-35BE-4E60-889D-B5E0B567935A}
+	EndGlobalSection
+EndGlobal
