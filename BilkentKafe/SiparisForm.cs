@@ -52,5 +52,10 @@ namespace BilkentKafe
 
             blSiparisDetaylar.Add(sd);
         }
+
+        private void btnAnasayfa_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
