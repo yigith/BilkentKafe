@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ürünlerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnUrunler = new System.Windows.Forms.ToolStripMenuItem();
             this.btnGecmisSiparisler = new System.Windows.Forms.ToolStripMenuItem();
             this.lvwMasalar = new System.Windows.Forms.ListView();
             this.menuStrip1.SuspendLayout();
@@ -38,7 +38,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ürünlerToolStripMenuItem,
+            this.btnUrunler,
             this.btnGecmisSiparisler});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -46,11 +46,12 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // ürünlerToolStripMenuItem
+            // btnUrunler
             // 
-            this.ürünlerToolStripMenuItem.Name = "ürünlerToolStripMenuItem";
-            this.ürünlerToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
-            this.ürünlerToolStripMenuItem.Text = "Ürünler";
+            this.btnUrunler.Name = "btnUrunler";
+            this.btnUrunler.Size = new System.Drawing.Size(58, 20);
+            this.btnUrunler.Text = "Ürünler";
+            this.btnUrunler.Click += new System.EventHandler(this.btnUrunler_Click);
             // 
             // btnGecmisSiparisler
             // 
@@ -90,7 +91,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ürünlerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnUrunler;
         private System.Windows.Forms.ToolStripMenuItem btnGecmisSiparisler;
         private System.Windows.Forms.ListView lvwMasalar;
     }
