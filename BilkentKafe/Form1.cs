@@ -107,5 +107,11 @@ namespace BilkentKafe
         {
             VerileriYaz();
         }
+
+        private void btnGecmisSiparisler_Click(object sender, EventArgs e)
+        {
+            var frm = new GecmisSiparislerForm(db);
+            frm.ShowDialog();
+        }
     }
 }
